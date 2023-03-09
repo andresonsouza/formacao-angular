@@ -23,7 +23,7 @@ export class CriarPensamentoComponent implements OnInit {
     alert('Pensamento criado com sucesso!');
   }
 
-  cancelarPensamento() {
+  cancelar() {
     // alert('Pensamento cancelado !');
   }
 
