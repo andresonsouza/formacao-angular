@@ -16,4 +16,8 @@ private readonly API: string = 'http://localhost:3000/pensamentos'
     return this.http.get<Pensamento[]>(this.API);
   }
 
+  criar(pensamento: Pensamento): Observable<Pensamento> {
+    return this.http.post<Pensamento>(this.API, pensamento);
+  }
+
 }
