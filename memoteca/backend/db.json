@@ -13,22 +13,10 @@
       "modelo": "modelo2"
     },
     {
-      "id": 3,
-      "conteudo": "Requisições http",
-      "autoria": "andreson",
-      "modelo": "modelo3"
-    },
-    {
       "conteudo": "Pensamento de teste",
       "autoria": "Dev Angular",
       "modelo": "modelo3",
       "id": 4
-    },
-    {
-      "conteudo": "fsdfsdfs",
-      "autoria": "44",
-      "modelo": "modelo1",
-      "id": 5
     }
   ]
 }
