@@ -1,4 +1,4 @@
-#Angular: ciclo de vida
+# Angular: ciclo de vida
 
 ## Pontos abordados:
 
