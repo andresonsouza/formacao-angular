@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ListaDeCompraService } from '../../service/lista-de-compra.service';
 
 @Component({
   selector: 'app-input',
@@ -7,7 +8,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InputComponent implements OnInit {
 
-  constructor() { }
+  valorItem!: string;
+
+  constructor(
+    private listaDeCompraService: ListaDeCompraService
+  ) { }
 
   ngOnInit(): void { }
+
+  adicionarItem() {
+    this.listaDeCompraService.adicionarItemLista(this.valorItem);
+    this.limparCampo();
+  }
+
+  limparCampo() {
+    this.valorItem = '';
+  }
+
 }

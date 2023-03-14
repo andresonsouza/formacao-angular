@@ -21,5 +21,10 @@ export class AppComponent implements OnInit{
 
   }
 
+  editarItem(item: Item) {
+    console.log(item);
+
+  }
+
 
 }
